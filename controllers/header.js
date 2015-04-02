@@ -9,7 +9,7 @@
  * Controller of the clientApp
  */
 angular.module('jonnysAuthModule')
-    .controller('HeaderCtrl', function($scope, userService) {
+    .controller('jonnysAuthModule.HeaderCtrl', function($scope, userService) {
 
         $scope.loggedIn = function(data) {
 

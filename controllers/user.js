@@ -8,7 +8,7 @@
  * Controller of the clientApp
  */
 angular.module('jonnysAuthModule')
-  .controller('UserCtrl', function ($scope, $rootScope, $http, $window, userService) {
+  .controller('jonnysAuthModule.UserCtrl', function ($scope, $rootScope, $http, $window, userService) {
     $scope.credentials = {
     email: '',
     password: ''

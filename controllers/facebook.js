@@ -8,7 +8,7 @@
  * Controller of the clientApp
  */
 angular.module('jonnysAuthModule')
-  .controller('FacebookCtrl', function ($scope,$http) {
+  .controller('jonnysAuthModule.FacebookCtrl', function ($scope,$http) {
    var request = $http.get('/auth/facebook/callback');
     request.success(function(data) {
       //console.log(data);

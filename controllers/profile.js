@@ -8,7 +8,7 @@
  * Controller of the clientApp
  */
 angular.module('jonnysAuthModule')
-  .controller('ProfileCtrl', function ($scope,$http, $window, $routeParams, userService) {
+  .controller('jonnysAuthModule.ProfileCtrl', function ($scope,$http, $window, $routeParams, userService) {
     var token = $window.localStorage.getItem('token');
 
     if ($routeParams.id) {
